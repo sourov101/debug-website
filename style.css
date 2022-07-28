@@ -1,0 +1,46 @@
+/* carousel  */
+
+.carousel-item-custom img {
+    height: 650px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.carousel-caption-custom {
+    position: absolute;
+    text-align: center;
+    bottom: 190px;
+    padding-left: 150px;
+    padding-right: 100px;
+    color: white;
+
+}
+
+.carousel-item-custom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    opacity: 0.6;
+    border-radius: 5px;
+
+}
+
+.carousel-caption-custom h1 {
+    font-weight: 600;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.carousel-caption-custom p {
+    font-size: 18px;
+}
+
+/* Explore Learning */
+.bg-clr {
+    background-color: #F4FAFD;
+}
